@@ -12,7 +12,7 @@ This example uses p5 preload function to create the classifier
 // Classifier Variable
 let classifier;
 // Model URL
-let imageModelURL = ' https://ssssssssss10022.github.io/modle/';
+let imageModelURL = 'https://kevin945290.github.io/computerai/';
 
 // Video
 let video;
@@ -29,7 +29,7 @@ function setup() {
 
   createCanvas(320, 320);
 
-  
+ 
 
   // Create the video
 
@@ -45,7 +45,7 @@ function setup() {
 
       }
 
-    }   
+    }  
 
     //video: {
 
@@ -70,10 +70,8 @@ function setup() {
   classifyVideo();
 
 }
-  flippedVideo = ml5.flipImage(video)
-  // Start classifying
-  classifyVideo();
-}
+
+
 
 function draw() {
   background(0);
